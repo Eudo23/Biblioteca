@@ -57,7 +57,7 @@
     <!-- Sidebar menu-->
     <div class="app-sidebar__overlay" data-toggle="sidebar"></div>
     <aside class="app-sidebar">
-        <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="<?php echo base_url; ?>Assets/img/logo.png" alt="User Image" width="50">
+        <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="Assets/img/autor/logo1.png" alt="User Image" width="50">
             <div>
                 <p class="app-sidebar__user-name"><?php echo $_SESSION['nombre'] ?></p>
                 <p class="app-sidebar__user-designation"><?php echo $_SESSION['usuario']; ?></p>

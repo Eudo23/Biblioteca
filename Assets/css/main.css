@@ -340,7 +340,7 @@ progress {
 
 [type="search"] {
   outline-offset: -2px;
-  -webkit-appearance: none;
+    -webkit-appearance: none;
 }
 
 [type="search"]::-webkit-search-decoration {
@@ -11760,8 +11760,8 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.focus {
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding;
   background-clip: padding-box;
-  *border-right-width: 2px;
-  *border-bottom-width: 2px;
+  border-right-width: 2px;
+  border-bottom-width: 2px;
   color: #333333;
   font-size: 13px;
   line-height: 1.42857143;
@@ -11857,7 +11857,7 @@ body.stop-scrolling {
   overflow: hidden;
   padding: 0 10px;
   max-height: 0;
-  webkit-transition: padding 0.15s, max-height 0.15s;
+  -webkit-transition: padding 0.15s, max-height 0.15s;
   -webkit-transition: padding 0.15s, max-height 0.15s;
   -o-transition: padding 0.15s, max-height 0.15s;
   transition: padding 0.15s, max-height 0.15s;
@@ -11866,7 +11866,7 @@ body.stop-scrolling {
 .sweet-alert .sa-error-container.show {
   padding: 10px 0;
   max-height: 100px;
-  webkit-transition: padding 0.2s, max-height 0.2s;
+  -webkit-transition: padding 0.2s, max-height 0.2s;
   -webkit-transition: padding 0.25s, max-height 0.25s;
   -o-transition: padding 0.25s, max-height 0.25s;
   transition: padding 0.25s, max-height 0.25s;
